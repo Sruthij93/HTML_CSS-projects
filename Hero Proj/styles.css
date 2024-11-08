@@ -1,0 +1,58 @@
+ /* Reset default margins and padding */
+ body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+ }
+
+ /* Set background color and centre the content */
+ .hero{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .hero-heading{
+    font-size: 48px;
+    font-family: 'Rubik', sans-serif;
+    color: #333333;
+    margin-bottom: 20px;
+ }
+
+ .hero-subheading{
+    font-size: 24px;
+    color: #666666;
+    margin-bottom: 30px;
+ }
+
+ /* Style the description paragraph */
+ .hero-description{
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 40px;
+ }
+
+ /* Style the call-to-action button */
+ .cta-button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #534949;
+    text-decoration: none;
+    font-size: 18px;
+    color: #F5F5F5;
+    border-radius: 4px;
+    transition: background-color 0.3 ease;
+ }
+
+ .cta-button:hover{
+    background-color: #333333;
+ }
+
+ .logo{
+    display:block;
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /*add soft shadow*/
+ }

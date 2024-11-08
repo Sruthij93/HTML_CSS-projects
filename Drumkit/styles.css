@@ -1,0 +1,26 @@
+body{
+    padding:0;
+    margin:0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#kick{
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgb(197, 170, 222);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#kick:hover{
+    background-color: rgb(120, 27, 208);
+}
+
+#kick:active{
+    background-color: rgb(184, 172, 196);
+}

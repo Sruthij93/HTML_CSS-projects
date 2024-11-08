@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* element includes the border and padding, total size of element remains consistene even with border and padding */
+}
+
+/* main container for the slider */
+.slider{
+    position: relative;
+    
+}
+

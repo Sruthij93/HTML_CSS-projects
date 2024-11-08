@@ -1,0 +1,41 @@
+/*Center the container horizontally */
+.container{
+    text-align: center;
+    margin-top: 20px; /* add space above the button */
+}
+
+.rounded-button{
+    background-color: #1da1f2; /* twitter blue */
+    color: #fff; /* text color */
+    border: none;
+    border-radius: 20px; /* rounded border */
+    padding: 10px 20px; /* adding padding to the button */
+    font-size: 16px;
+    cursor: pointer; /*change cursor to pointer on hover*/
+
+}
+
+.container-1{
+    text-align: center;
+    margin-top: 20px; /* add space above the button */
+}
+
+.squared-button{
+    background-color: black; 
+    color: #fff; /* text color */
+    border: none;
+    padding: 10px 20px; /* adding padding to the button */
+    font-size: 16px;
+    cursor: pointer; /*change cursor to pointer on hover*/
+
+}
+
+/* Change the background color when hovering over the button */
+.squared-button:hover{
+    background-color: #555b61;
+}
+
+/* Change the background color when th ebutton is clicked */
+.squared-button:active{
+    background-color: #1c1f21;
+}

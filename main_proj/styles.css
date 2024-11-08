@@ -1,0 +1,127 @@
+/* General Styles for the Body */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Use a clean, easy-to-read font */
+    background-color: #f6f6f6; /* Light background to keep the page bright and inviting */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding to the page */
+    color: #333; /* Dark grey text for better readability */
+    text-align: center; /* Center text across the page */ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+/* Header Styles */
+header {
+    background-color: #be1087; /* Bright yellow background for a festive vibe */
+    padding: 20px; /* Add space inside the header */
+    border-radius: 10px; /* Round the corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+    margin-bottom: 20px; /* Space between header and content below */
+    color: aliceblue;
+}
+
+header h1 {
+    color: #ebdcb9; /* Dark purple text for the main header */
+    font-size: 24px; /* Larger text for the header */
+    margin: 0; /* Remove default margin */
+}
+
+header h2 {
+    color: #5c2b8a; /* Slightly lighter purple for the subheading */
+    font-size: 18px; /* Smaller text for the subheading */
+    margin: 5px 0 0 0; /* Add a small margin at the top */
+}
+
+main{
+    background-color: #f6f6f6;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px; /* Rounded corners for a friendly look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow to lift the form off the page */
+    padding: 20px;
+
+}
+
+/* Description Styles */
+#about {
+    font-size: 16px; /* Standard text size */
+    margin-bottom: 20px; /* Space below the description */
+}
+
+
+
+/* Form Element Styles */
+form {
+    display: flex; /* Use flexbox to align form elements */
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center form elements */
+}
+
+label {
+    font-size: 16px; /* Standard text size for labels */
+    margin-bottom: 5px; /* Small space below labels */
+    color: #333; /* Dark grey text */
+}
+
+input[type="email"], select {
+    width: 100%; /* Full width input and select */
+    max-width: 300px; /* Limit width on larger screens */
+    padding: 10px; /* Space inside input and select fields */
+    margin-bottom: 20px; /* Space below each form element */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Standard text size inside inputs */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+button {
+    background-color: #471869; /* Dark purple button background */
+    color: white; /* White text on the button */
+    padding: 10px 20px; /* Space inside the button */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Standard button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #5c2b8a; /* Slightly lighter purple on hover */
+}
+
+/* Confirmation Message Styles */
+#Confirmation_msg {
+    display: none; /* Initially hide the confirmation message */
+    margin-bottom: 20px; /* Space above the confirmation message */
+    border: 1px thin #be1087;
+    border-radius: 6px;
+    font-size: 22px; /* Slightly larger text for the message */
+    font-weight: bold;
+    color: #127349; /* Green text to indicate success */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+        background-color: rgb(159, 167, 199);
+    }
+
+    header h1 {
+        font-size: 20px; /* Slightly smaller header on mobile */
+    }
+
+    header h2 {
+        font-size: 16px; /* Slightly smaller subheading on mobile */
+    }
+
+    #RSVP {
+        padding: 15px; /* Reduce form padding on mobile */
+    }
+
+    input[type="email"], select, button {
+        max-width: 100%; /* Ensure form elements use the full width on mobile */
+    }
+}
